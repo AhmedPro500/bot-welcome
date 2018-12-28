@@ -1,0 +1,491 @@
+Worker information
+hostname: 504836a7-8a4c-418a-8586-8bc6a67ebe1e@1.production-2-worker-org-gce-2wwl
+version: v6.1.0 https://github.com/travis-ci/worker/tree/a6071dd64658ecf13ec3190bfb9e9ca3c8f3e10d
+instance: travis-job-53662e80-9e40-40a1-8284-2bd1d61312f6 travis-ci-connie-trusty-1512502258-986baf0 (via amqp)
+startup: 6.449317145s
+system_info
+Build system information
+Build language: bash
+Build group: stable
+Build dist: trusty
+Build id: 472388659
+Job id: 472388660
+Runtime kernel version: 4.4.0-101-generic
+travis-build version: aec3718d9
+Build image provisioning date and time
+Tue Dec  5 19:48:03 UTC 2017
+Operating System Details
+Distributor ID:	Ubuntu
+Description:	Ubuntu 14.04.5 LTS
+Release:	14.04
+Codename:	trusty
+Cookbooks Version
+7c2c6a6 https://github.com/travis-ci/travis-cookbooks/tree/7c2c6a6
+git version
+git version 2.15.1
+bash version
+GNU bash, version 4.3.11(1)-release (x86_64-pc-linux-gnu)
+gcc version
+gcc (Ubuntu 4.8.4-2ubuntu1~14.04.3) 4.8.4
+Copyright (C) 2013 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+docker version
+Client:
+ Version:      17.09.0-ce
+ API version:  1.32
+ Go version:   go1.8.3
+ Git commit:   afdb6d4
+ Built:        Tue Sep 26 22:42:38 2017
+ OS/Arch:      linux/amd64
+Server:
+ Version:      17.09.0-ce
+ API version:  1.32 (minimum version 1.12)
+ Go version:   go1.8.3
+ Git commit:   afdb6d4
+ Built:        Tue Sep 26 22:41:20 2017
+ OS/Arch:      linux/amd64
+ Experimental: false
+clang version
+clang version 5.0.0 (tags/RELEASE_500/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/clang-5.0.0/bin
+jq version
+jq-1.5
+bats version
+Bats 0.4.0
+shellcheck version
+0.4.6
+shfmt version
+v2.0.0
+ccache version
+ccache version 3.1.9
+Copyright (C) 2002-2007 Andrew Tridgell
+Copyright (C) 2009-2011 Joel Rosdahl
+This program is free software; you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation; either version 3 of the License, or (at your option) any later
+version.
+cmake version
+cmake version 3.9.2
+CMake suite maintained and supported by Kitware (kitware.com/cmake).
+heroku version
+heroku-cli/6.14.39-addc925 (linux-x64) node-v9.2.0
+imagemagick version
+Version: ImageMagick 6.7.7-10 2017-07-31 Q16 http://www.imagemagick.org
+md5deep version
+4.2
+mercurial version
+Mercurial Distributed SCM (version 4.2.2)
+(see https://mercurial-scm.org for more information)
+Copyright (C) 2005-2017 Matt Mackall and others
+This is free software; see the source for copying conditions. There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+mysql version
+mysql  Ver 14.14 Distrib 5.5.58, for debian-linux-gnu (x86_64) using readline 6.3
+openssl version
+OpenSSL 1.0.1f 6 Jan 2014
+packer version
+Packer v1.0.2
+Your version of Packer is out of date! The latest version
+is 1.1.2. You can update by downloading from www.packer.io
+postgresql client version
+psql (PostgreSQL) 9.3.20
+ragel version
+Ragel State Machine Compiler version 6.8 Feb 2013
+Copyright (c) 2001-2009 by Adrian Thurston
+subversion version
+svn, version 1.8.8 (r1568071)
+   compiled Aug 10 2017, 17:20:39 on x86_64-pc-linux-gnu
+Copyright (C) 2013 The Apache Software Foundation.
+This software consists of contributions made by many people;
+see the NOTICE file for more information.
+Subversion is open source software, see http://subversion.apache.org/
+The following repository access (RA) modules are available:
+* ra_svn : Module for accessing a repository using the svn network protocol.
+  - with Cyrus SASL authentication
+  - handles 'svn' scheme
+* ra_local : Module for accessing a repository on local disk.
+  - handles 'file' scheme
+* ra_serf : Module for accessing a repository via WebDAV protocol using serf.
+  - using serf 1.3.3
+  - handles 'http' scheme
+  - handles 'https' scheme
+sudo version
+Sudo version 1.8.9p5
+Configure options: --prefix=/usr -v --with-all-insults --with-pam --with-fqdn --with-logging=syslog --with-logfac=authpriv --with-env-editor --with-editor=/usr/bin/editor --with-timeout=15 --with-password-timeout=0 --with-passprompt=[sudo] password for %p:  --without-lecture --with-tty-tickets --disable-root-mailer --enable-admin-flag --with-sendmail=/usr/sbin/sendmail --with-timedir=/var/lib/sudo --mandir=/usr/share/man --libexecdir=/usr/lib/sudo --with-sssd --with-sssd-lib=/usr/lib/x86_64-linux-gnu --with-selinux
+Sudoers policy plugin version 1.8.9p5
+Sudoers file grammar version 43
+Sudoers path: /etc/sudoers
+Authentication methods: 'pam'
+Syslog facility if syslog is being used for logging: authpriv
+Syslog priority to use when user authenticates successfully: notice
+Syslog priority to use when user authenticates unsuccessfully: alert
+Send mail if the user is not in sudoers
+Use a separate timestamp for each user/tty combo
+Lecture user the first time they run sudo
+Root may run sudo
+Allow some information gathering to give useful error messages
+Require fully-qualified hostnames in the sudoers file
+Visudo will honor the EDITOR environment variable
+Set the LOGNAME and USER environment variables
+Length at which to wrap log file lines (0 for no wrap): 80
+Authentication timestamp timeout: 15.0 minutes
+Password prompt timeout: 0.0 minutes
+Number of tries to enter a password: 3
+Umask to use or 0777 to use user's: 022
+Path to mail program: /usr/sbin/sendmail
+Flags for mail program: -t
+Address to send mail to: root
+Subject line for mail messages: *** SECURITY information for %h ***
+Incorrect password message: Sorry, try again.
+Path to authentication timestamp dir: /var/lib/sudo
+Default password prompt: [sudo] password for %p: 
+Default user to run commands as: root
+Value to override user's $PATH with: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
+Path to the editor for use by visudo: /usr/bin/editor
+When to require a password for 'list' pseudocommand: any
+When to require a password for 'verify' pseudocommand: all
+File descriptors >= 3 will be closed before executing a command
+Environment variables to check for sanity:
+	TZ
+	TERM
+	LINGUAS
+	LC_*
+	LANGUAGE
+	LANG
+	COLORTERM
+Environment variables to remove:
+	RUBYOPT
+	RUBYLIB
+	PYTHONUSERBASE
+	PYTHONINSPECT
+	PYTHONPATH
+	PYTHONHOME
+	TMPPREFIX
+	ZDOTDIR
+	READNULLCMD
+	NULLCMD
+	FPATH
+	PERL5DB
+	PERL5OPT
+	PERL5LIB
+	PERLLIB
+	PERLIO_DEBUG 
+	JAVA_TOOL_OPTIONS
+	SHELLOPTS
+	GLOBIGNORE
+	PS4
+	BASH_ENV
+	ENV
+	TERMCAP
+	TERMPATH
+	TERMINFO_DIRS
+	TERMINFO
+	_RLD*
+	LD_*
+	PATH_LOCALE
+	NLSPATH
+	HOSTALIASES
+	RES_OPTIONS
+	LOCALDOMAIN
+	CDPATH
+	IFS
+Environment variables to preserve:
+	JAVA_HOME
+	TRAVIS
+	CI
+	DEBIAN_FRONTEND
+	XAUTHORIZATION
+	XAUTHORITY
+	PS2
+	PS1
+	PATH
+	LS_COLORS
+	KRB5CCNAME
+	HOSTNAME
+	HOME
+	DISPLAY
+	COLORS
+Locale to use while parsing sudoers: C
+Directory in which to store input/output logs: /var/log/sudo-io
+File in which to store the input/output log: %{seq}
+Add an entry to the utmp/utmpx file when allocating a pty
+PAM service name to use
+PAM service name to use for login shells
+Create a new PAM session for the command to run in
+Maximum I/O log sequence number: 0
+Local IP address and netmask pairs:
+	10.240.0.27/255.255.255.255
+	172.17.0.1/255.255.0.0
+Sudoers I/O plugin version 1.8.9p5
+gzip version
+gzip 1.6
+Copyright (C) 2007, 2010, 2011 Free Software Foundation, Inc.
+Copyright (C) 1993 Jean-loup Gailly.
+This is free software.  You may redistribute copies of it under the terms of
+the GNU General Public License <http://www.gnu.org/licenses/gpl.html>.
+There is NO WARRANTY, to the extent permitted by law.
+Written by Jean-loup Gailly.
+zip version
+Copyright (c) 1990-2008 Info-ZIP - Type 'zip "-L"' for software license.
+This is Zip 3.0 (July 5th 2008), by Info-ZIP.
+Currently maintained by E. Gordon.  Please send bug reports to
+the authors using the web page at www.info-zip.org; see README for details.
+Latest sources and executables are at ftp://ftp.info-zip.org/pub/infozip,
+as of above date; see http://www.info-zip.org/ for other sites.
+Compiled with gcc 4.8.2 for Unix (Linux ELF) on Oct 21 2013.
+Zip special compilation options:
+	USE_EF_UT_TIME       (store Universal Time)
+	BZIP2_SUPPORT        (bzip2 library version 1.0.6, 6-Sept-2010)
+	    bzip2 code and library copyright (c) Julian R Seward
+	    (See the bzip2 license for terms of use)
+	SYMLINK_SUPPORT      (symbolic links supported)
+	LARGE_FILE_SUPPORT   (can read and write large files on file system)
+	ZIP64_SUPPORT        (use Zip64 to store large files in archives)
+	UNICODE_SUPPORT      (store and read UTF-8 Unicode paths)
+	STORE_UNIX_UIDs_GIDs (store UID/GID sizes/values using new extra field)
+	UIDGID_NOT_16BIT     (old Unix 16-bit UID/GID extra field not used)
+	[encryption, version 2.91 of 05 Jan 2007] (modified for Zip 3)
+Encryption notice:
+	The encryption code of this program is not copyrighted and is
+	put in the public domain.  It was originally written in Europe
+	and, to the best of our knowledge, can be freely distributed
+	in both source and object forms from any country, including
+	the USA under License Exception TSU of the U.S. Export
+	Administration Regulations (section 740.13(e)) of 6 June 2002.
+Zip environment options:
+             ZIP:  [none]
+          ZIPOPT:  [none]
+vim version
+VIM - Vi IMproved 7.4 (2013 Aug 10, compiled Nov 24 2016 16:43:18)
+Included patches: 1-52
+Extra patches: 8.0.0056
+Modified by pkg-vim-maintainers@lists.alioth.debian.org
+Compiled by buildd@
+Huge version without GUI.  Features included (+) or not (-):
++acl             +farsi           +mouse_netterm   +syntax
++arabic          +file_in_path    +mouse_sgr       +tag_binary
++autocmd         +find_in_path    -mouse_sysmouse  +tag_old_static
+-balloon_eval    +float           +mouse_urxvt     -tag_any_white
+-browse          +folding         +mouse_xterm     -tcl
+++builtin_terms  -footer          +multi_byte      +terminfo
++byte_offset     +fork()          +multi_lang      +termresponse
++cindent         +gettext         -mzscheme        +textobjects
+-clientserver    -hangul_input    +netbeans_intg   +title
+-clipboard       +iconv           +path_extra      -toolbar
++cmdline_compl   +insert_expand   -perl            +user_commands
++cmdline_hist    +jumplist        +persistent_undo +vertsplit
++cmdline_info    +keymap          +postscript      +virtualedit
++comments        +langmap         +printer         +visual
++conceal         +libcall         +profile         +visualextra
++cryptv          +linebreak       +python          +viminfo
++cscope          +lispindent      -python3         +vreplace
++cursorbind      +listcmds        +quickfix        +wildignore
++cursorshape     +localmap        +reltime         +wildmenu
++dialog_con      -lua             +rightleft       +windows
++diff            +menu            -ruby            +writebackup
++digraphs        +mksession       +scrollbind      -X11
+-dnd             +modify_fname    +signs           -xfontset
+-ebcdic          +mouse           +smartindent     -xim
++emacs_tags      -mouseshape      -sniff           -xsmp
++eval            +mouse_dec       +startuptime     -xterm_clipboard
++ex_extra        +mouse_gpm       +statusline      -xterm_save
++extra_search    -mouse_jsbterm   -sun_workshop    -xpm
+   system vimrc file: "$VIM/vimrc"
+     user vimrc file: "$HOME/.vimrc"
+ 2nd user vimrc file: "~/.vim/vimrc"
+      user exrc file: "$HOME/.exrc"
+  fall-back for $VIM: "/usr/share/vim"
+Compilation: gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1      
+Linking: gcc   -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,--as-needed -o vim        -lm -ltinfo -lnsl  -lselinux  -lacl -lattr -lgpm -ldl    -L/usr/lib/python2.7/config-x86_64-linux-gnu -lpython2.7 -lpthread -ldl -lutil -lm -Xlinker -export-dynamic -Wl,-O1 -Wl,-Bsymbolic-functions      
+iptables version
+iptables v1.4.21
+curl version
+curl 7.35.0 (x86_64-pc-linux-gnu) libcurl/7.35.0 OpenSSL/1.0.1f zlib/1.2.8 libidn/1.28 librtmp/2.3
+wget version
+GNU Wget 1.15 built on linux-gnu.
+rsync version
+rsync  version 3.1.0  protocol version 31
+gimme version
+v1.2.0
+nvm version
+0.33.6
+perlbrew version
+/home/travis/perl5/perlbrew/bin/perlbrew  - App::perlbrew/0.80
+rvm version
+rvm 1.29.3 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+default ruby version
+ruby 2.4.1p111 (2017-03-22 revision 58053) [x86_64-linux]
+services
+0.02s$ sudo service docker start
+start: Job is already running: docker
+git.checkout
+0.75s$ git clone --depth=50 --branch=master https://github.com/heroku/heroku-buildpack-nodejs.git heroku/heroku-buildpack-nodejs
+Cloning into 'heroku/heroku-buildpack-nodejs'...
+$ cd heroku/heroku-buildpack-nodejs
+$ git checkout -qf 5a76f5f19974424755789f82d14c1aa381434191
+Setting environment variables from repository settings
+$ export HEROKU_API_KEY=[secure]
+$ export HEROKU_API_USER=[secure]
+Setting environment variables from .travis.yml
+$ export TEST_NODE_VERSION=8.15.0
+$ bash -c 'echo $BASH_VERSION'
+4.3.11(1)-release
+install
+0.00s$ if [[ -n $STACK ]]; then docker pull "heroku/${STACK/-/:}"; fi
+103.69s$ make nodebin-test
+Running test for Node v8.15.0...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+software-properties-common is already the newest version (0.92.37.8).
+0 upgraded, 0 newly installed, 0 to remove and 216 not upgraded.
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  1232  100  1232    0     0  22269      0 --:--:-- --:--:-- --:--:-- 22400
+This script requires superuser access to install apt packages.
+You will be prompted for your password by sudo.
++ dpkg -s apt-transport-https
++ echo deb https://cli-assets.heroku.com/apt ./
++ dpkg -s heroku-toolbelt
++ true
++ apt-key add -
++ curl https://cli-assets.heroku.com/apt/release.key
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  1737  100  1737    0     0  31036      0 --:--:-- --:--:-- --:--:-- 31581
+OK
++ apt-get update
+Hit:1 http://security.ubuntu.com/ubuntu trusty-security InRelease
+Hit:2 http://dl.hhvm.com/ubuntu trusty InRelease
+Hit:3 http://ppa.launchpad.net/git-core/ppa/ubuntu trusty InRelease
+Hit:4 http://ppa.launchpad.net/pollinate/ppa/ubuntu trusty InRelease
+Hit:6 http://apt.postgresql.org/pub/repos/apt trusty-pgdg InRelease
+Ign:7 http://us-east-1.ec2.archive.ubuntu.com/ubuntu trusty InRelease
+Hit:8 http://us-east-1.ec2.archive.ubuntu.com/ubuntu trusty-updates InRelease
+Hit:9 http://us-east-1.ec2.archive.ubuntu.com/ubuntu trusty-backports InRelease
+Hit:10 http://us-east-1.ec2.archive.ubuntu.com/ubuntu trusty Release
+Ign:5 http://toolbelt.heroku.com/ubuntu ./ InRelease
+Hit:11 http://toolbelt.heroku.com/ubuntu ./ Release
+Get:12 https://cli-assets.heroku.com/apt ./ InRelease [2,533 B]
+Hit:13 https://download.docker.com/linux/ubuntu trusty InRelease
+Get:16 https://cli-assets.heroku.com/apt ./ Packages [562 B]
+Hit:17 https://packagecloud.io/computology/apt-backport/ubuntu trusty InRelease
+Hit:18 https://packagecloud.io/github/git-lfs/ubuntu trusty InRelease
+Fetched 3,095 B in 1s (2,767 B/s)
+Reading package lists...
++ apt-get install -y heroku
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  heroku
+0 upgraded, 1 newly installed, 0 to remove and 216 not upgraded.
+Need to get 16.2 MB of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 https://cli-assets.heroku.com/apt ./ heroku 7.19.4-1 [16.2 MB]
+Fetched 16.2 MB in 0s (22.9 MB/s)
+Selecting previously unselected package heroku.
+(Reading database ... 78860 files and directories currently installed.)
+Preparing to unpack .../heroku_7.19.4-1_amd64.deb ...
+Unpacking heroku (7.19.4-1) ...
+Setting up heroku (7.19.4-1) ...
+heroku installed to /usr/bin/heroku
+ ›   Warning: HEROKU_API_KEY set to [REDACTED]
+heroku/7.19.4 linux-x64 node-v11.3.0
+Could not find an existing SSH key at ~/.ssh/id_rsa.pub
+Would you like to generate a new one? [Y/n]: Generating public/private rsa key pair.
+Your identification has been saved in /home/travis/.ssh/id_rsa.
+Your public key has been saved in /home/travis/.ssh/id_rsa.pub.
+The key fingerprint is:
+86:6b:3f:38:75:c6:a7:ea:fb:17:bb:2a:98:02:68:f1 travis@travis-job-53662e80-9e40-40a1-8284-2bd1d61312f6
+The key's randomart image is:
++--[ RSA 2048]----+
+|                 |
+|                 |
+|                 |
+| .     .         |
+| .o   . S.       |
+|...E   o. + o    |
+|.  .  o= o o o   |
+|    ..=.o . o    |
+|     . o=*oo..   |
++-----------------+
+Uploading /home/travis/.ssh/id_rsa.pub SSH key... done
+Successfully installed bundler-1.17.2
+1 gem installed
+Fetching gem metadata from https://rubygems.org/........
+Fetching rake 12.3.1
+Installing rake 12.3.1
+Fetching concurrent-ruby 1.0.5
+Installing concurrent-ruby 1.0.5
+Fetching i18n 1.1.0
+Installing i18n 1.1.0
+Fetching minitest 5.11.3
+Installing minitest 5.11.3
+Fetching thread_safe 0.3.6
+Installing thread_safe 0.3.6
+Fetching tzinfo 1.2.5
+Installing tzinfo 1.2.5
+Fetching activesupport 5.2.1
+Installing activesupport 5.2.1
+Using bundler 1.17.2
+Fetching diff-lcs 1.3
+Installing diff-lcs 1.3
+Fetching erubis 2.7.0
+Installing erubis 2.7.0
+Fetching excon 0.62.0
+Installing excon 0.62.0
+Fetching moneta 0.8.1
+Installing moneta 0.8.1
+Fetching multi_json 1.13.1
+Installing multi_json 1.13.1
+Fetching heroics 0.0.24
+Installing heroics 0.0.24
+Fetching minitest-retry 0.1.9
+Installing minitest-retry 0.1.9
+Fetching platform-api 2.1.0
+Installing platform-api 2.1.0
+Fetching repl_runner 0.0.3
+Installing repl_runner 0.0.3
+Fetching rrrretry 1.0.0
+Installing rrrretry 1.0.0
+Fetching thor 0.20.0
+Installing thor 0.20.0
+Fetching threaded 0.0.4
+Installing threaded 0.0.4
+Fetching heroku_hatchet 4.0.5
+Installing heroku_hatchet 4.0.5
+Fetching parallel 1.12.1
+Installing parallel 1.12.1
+Fetching parallel_tests 2.22.0
+Installing parallel_tests 2.22.0
+Fetching rspec-support 3.8.0
+Installing rspec-support 3.8.0
+Fetching rspec-core 3.8.0
+Installing rspec-core 3.8.0
+Fetching rspec-expectations 3.8.1
+Installing rspec-expectations 3.8.1
+Fetching rspec-retry 0.6.1
+Installing rspec-retry 0.6.1
+Fetching sem_version 2.0.1
+Installing sem_version 2.0.1
+Bundle complete! 6 Gemfile dependencies, 28 gems now installed.
+Use `bundle info [gemname]` to see where a bundled gem is installed.
+Running tests for Node versions: 8.15.0
+Running tests for Node versions: 8.15.0
+Run options: include {:focused=>true}
+All examples were filtered out; ignoring {:focused=>true}
+Hatchet setup: "hatchet-t-17c0629cbe4323223d46" for "spec/fixtures/repos/node-10-metrics"
+Destroying "hatchet-t-364eb05b2e0af8563791": 84c3951d-2760-48c3-8300-1bab8276085b. Hatchet app limit: 20
+Warning: Reached Heroku app limit of 100.
+.Hatchet setup: "hatchet-t-acc989f54d3bedc0408d" for "spec/fixtures/repos/node-10"
+Destroying "hatchet-t-17c0629cbe4323223d46": 5270e9e6-af50-4b35-b00d-f0e8d59b47b5. Hatchet app limit: 20
+Warning: Reached Heroku app limit of 100.
+.
+Finished in 1 minute 18.92 seconds (files took 0.2328 seconds to load)
+2 examples, 0 failures
+The command "make nodebin-test" exited with 0.
+Done. Your build exited with 0.
